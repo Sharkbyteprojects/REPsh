@@ -1,0 +1,1 @@
+string help = "Help for REPsh\n\nCommand \"repsh o z hey.txt ho.txt\" will read the file hey.txt, replace all \"o\" with \"z\" and write this to ho.txt\n\ncat hey.txt | repsh o z ho.txt will do this also\n\n\nTO USE THE COMMAND, THE BINARY FILE FROM REPSH MUST BE IN THE PATH";
