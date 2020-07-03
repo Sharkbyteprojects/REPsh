@@ -32,6 +32,14 @@ int main(int argc, char* argv[])
         cout << file << endl;
         out.close();
     }
+    else if (argc > 2) {
+        string file;
+        cin >> file;
+        string searchfor(argv[1]);
+        string repwi(argv[2]);
+        ReplaceString(file, searchfor, repwi);
+        cout << file << endl;
+    }
     else {
         cout << "RepSH\n<c> Sharkbyteprojects\n" << endl;
         cout << help << endl;
