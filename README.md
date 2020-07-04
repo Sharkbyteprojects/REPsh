@@ -12,7 +12,7 @@ CREATE A DOCKERFILE WITH CONTENT LIKE
 
 ```
 
-FROM rep_sh
+FROM shark2byte/rep_sh
 
 COPY ./myfile ./
 
