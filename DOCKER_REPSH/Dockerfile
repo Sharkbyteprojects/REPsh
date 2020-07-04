@@ -1,3 +1,3 @@
 FROM scratch
 COPY . ./
-CMD ["./repsh"]
+RUN chmod +x ./repsh
